@@ -75,6 +75,7 @@ LEGACY_ROUTE_NAMES = {
     'home': 'home.index',
     'about': 'home.about',
     'search': 'dataset.search',
+    'advanced-search': 'search_adv.index',
     'dataset_read': 'dataset.read',
     'dataset_activity': 'dataset.activity',
     'dataset_groups': 'dataset.groups',
