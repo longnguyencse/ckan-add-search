@@ -221,13 +221,13 @@ def index(package_type='a'):
 
     # extra_vars[u'sort_by_selected'] = query[u'sort']
 
-    # extra_vars[u'page'] = h.Page(
-        # collection=query[u'results'],
-        # page=page,
-        # url=pager_url,
-        # item_count=query[u'count'],
-        # items_per_page=limit
-    # )
+    extra_vars[u'page'] = h.Page(
+        collection=[],
+        page=page,
+        url=pager_url,
+        item_count=0,
+        items_per_page=limit
+    )
     # extra_vars[u'search_facets'] = query[u'search_facets']
     # extra_vars[u'page'].items = query[u'results']
     # except SearchQueryError as se:
